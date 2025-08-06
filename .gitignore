@@ -1,0 +1,39 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.so
+*.dylib
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Experiment outputs & datasets
+runs/
+outputs/
+logs/
+*.log
+
+# Large local datasets (keep externally)
+data/
+datasets/
+
+# Cache directories
+.cache/
+~/.cache/
+
+# PyTest cache
+.pytest_cache/
+
+# Other temporary or backup files
+*~
+*.bak
+*.swp 
