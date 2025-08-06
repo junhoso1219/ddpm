@@ -6,12 +6,12 @@
 
 | 경로 | 설명 |
 |------|------|
-| `baselines-reproduction/` | DDPM 및 기타 diffusion 모델 baseline 재현 코드 |
-| `ot_sf/` | Optimal Transport–Score Function(OT-SF) 관련 실험 코드와 증명 |
+| `projects/baselines-reproduction/` | DDPM 및 기타 diffusion 모델 baseline 재현 코드 |
+| `projects/ot_sf/` | Optimal Transport–Score Function(OT-SF) 관련 실험 코드와 증명 |
 | `ddpm_setup_complete.sh` | 환경 구축 자동화 스크립트 │
 | `ddpm_manual_steps.md` | 수동 설정 및 추가 설명 문서 |
 | `.gitignore` | 불필요한 파일(데이터·캐시·가상환경 등) 제외 설정 |
-| `requirements.txt` (선택) | 파이썬 의존성 목록 |
+| `requirements.txt` | 파이썬 의존성 목록 |
 
 ## 설치 방법
 

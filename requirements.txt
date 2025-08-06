@@ -1,0 +1,8 @@
+torch>=2.0
+torchvision>=0.15
+accelerate>=0.26
+diffusers>=0.25.0
+transformers>=4.40
+numpy
+pillow
+tqdm 
