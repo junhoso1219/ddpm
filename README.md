@@ -43,3 +43,25 @@ python baselines-reproduction/train.py --config configs/base.yml
 ## 라이선스
 
 MIT License (파일 최상단 라이선스 내용을 참조)
+
+## 체크포인트 다운로드
+
+본 레포지토리에는 학습 완료된 주요 모델 가중치가 Git LFS를 통해 포함됩니다.
+
+```bash
+# Git LFS 설치 (필요 시)
+git lfs install
+
+# 레포지토리 클론 + LFS 파일 받기
+git clone https://github.com/junhoso1219/ddpm.git
+cd ddpm
+git lfs pull
+```
+
+가중치 위치
+
+| 파일 | 설명 |
+|------|------|
+| `checkpoints/cifar10/ddpm_cifar10_repro_long-31000.safetensors` | CIFAR-10 DDPM 모델(31k step) |
+
+필요에 따라 추가 체크포인트를 `checkpoints/` 디렉터리에 보관해 주세요.
