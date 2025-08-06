@@ -7,8 +7,8 @@ __pycache__/
 # Jupyter notebook checkpoints
 .ipynb_checkpoints/
 
-# Virtual environments
-.venv/
+# Virtual environments (any depth)
+**/.venv/
 venv/
 ENV/
 
@@ -16,15 +16,12 @@ ENV/
 .DS_Store
 Thumbs.db
 
-# Experiment outputs & datasets
-runs/
-outputs/
-logs/
-*.log
-
-# Large local datasets (keep externally)
-data/
-datasets/
+# Experiment outputs & datasets (any depth)
+**/runs/
+**/outputs/
+**/logs/
+**/data/
+**/datasets/
 
 # Cache directories
 .cache/
